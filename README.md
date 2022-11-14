@@ -20,50 +20,53 @@ Se requiere construir una API Rest que permita gestionar una base de datos entre
 ```
 
 ## REQUERIMIENTOS ##
-```
 ![req](https://user-images.githubusercontent.com/85509333/201574513-3278a695-9be4-4675-a972-567b361273d1.png)
 
-```
 
 
 ## Instalar ##
 ```
-- hacer el comando de clonar repositorio "git clone https://github.com/maycolroa/kubo.git
-- descargar los requisitos mencionado (nodemon, express, npm, etc)
-- ejecutar el comando de inicio npm start
+- Hacer el comando de clonar repositorio "git clone https://github.com/maycolroa/kubo.git
+- Descargar los requisitos mencionado (nodemon, express, npm, etc)
+- Ejecutar el comando de inicio npm start
+- Ejecutar el comando de inicio npm dev para modo fabricaion 
+```
+
 ![run](https://user-images.githubusercontent.com/85509333/201575614-cbb3c178-f942-4be3-8f75-c9b41191a15c.png)
 
-```
+
 
 
 ## comentar a mongoDB y crear usuarios y peliculas ##
-```
+
 ![coneccion](https://user-images.githubusercontent.com/85509333/201578325-0cbc77a4-eab1-430e-a0ab-e84b645d9b33.png)
 
 ![data](https://user-images.githubusercontent.com/85509333/201578606-e4b4fd38-20ba-4482-abd6-448a846c98fb.png)
 
-```
+
 
 ## crear modelos de las tablas ##
-```
+
 
 ![modelo tablas](https://user-images.githubusercontent.com/85509333/201578794-e9df49a7-1817-497a-80b7-d104b493a458.png)
 
 ![modelo users](https://user-images.githubusercontent.com/85509333/201579001-a8a28562-fbae-44f6-b770-ef2eab982f4b.png)
 
-```
+
 
 
 ## implementacion Heroku ##
-```
+
 ![heroku](https://user-images.githubusercontent.com/85509333/201579568-514dd781-9ac3-4068-a0b0-42f3fa29150f.png)
 
+```
 https://kubo-2020.herokuapp.com/
 ```
 
 ## request ##
 ```
 - request para crear eliminar ver actualizar  organizar usuarios y peliculas
+```
 
 ![crear usuario](https://user-images.githubusercontent.com/85509333/201575954-c81d392d-83ea-4d5c-befe-452c3d80e721.png)
 
@@ -84,7 +87,6 @@ https://kubo-2020.herokuapp.com/
 ![modifi](https://user-images.githubusercontent.com/85509333/201578058-c7ab2658-86d4-4ec1-98cd-afcf79b75385.png)
 
 
-```
 
 ## Authors
 ```
