@@ -1,0 +1,9 @@
+###
+PUT http://localhost:9000/api/users/637191c8ce4eef8401c6c963 HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "luz campos",
+  "age": 60,
+  "email": "luzcampos@email.com"
+}
