@@ -12,13 +12,13 @@ router.post("/movies", (req, res) => {
   .catch((error) => res.json({message: error}))
 })
 
-// get all movie
-router.get("/movies", (req, res) => {
+// filter movies by title and category
+router.get("/movies/", (req, res) => {
   movieschema
-  .find()
+  .find({}, { film_name: 1, genre: 1 })
   .then((data) => res.json(data))
   .catch((error) => res.json({message: error}))
-})
+  })
 
 // get a movie
 router.get("/movies/:id", (req, res) => {
@@ -28,6 +28,7 @@ router.get("/movies/:id", (req, res) => {
   .then((data) => res.json(data))
   .catch((error) => res.json({message: error}))
 })
+
 
 // update a movie
 router.put("/movies/:id", (req, res) => {
@@ -47,5 +48,6 @@ router.delete("/movies/:id", (req, res) => {
   .then((data) => res.json(data))
   .catch((error) => res.json({message: error}))
 })
+
 
 module.exports = router
