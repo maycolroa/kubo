@@ -52,7 +52,7 @@ Se requiere construir una API Rest que permita gestionar una base de datos entre
 
 ![modelo users](https://user-images.githubusercontent.com/85509333/201579001-a8a28562-fbae-44f6-b770-ef2eab982f4b.png)
 
-
+![nosql](https://user-images.githubusercontent.com/85509333/201800856-6ffa2ce1-1c17-411f-9604-768c652f4171.png)
 
 
 ## implementacion Heroku ##
@@ -86,6 +86,7 @@ https://kubo-2020.herokuapp.com/
 
 ![modifi](https://user-images.githubusercontent.com/85509333/201578058-c7ab2658-86d4-4ec1-98cd-afcf79b75385.png)
 
+![filtro por genero y nombre](https://user-images.githubusercontent.com/85509333/201800647-b4c2ff0a-4111-487e-ba17-fb14e4c2ca67.png)
 
 
 ## Authors
